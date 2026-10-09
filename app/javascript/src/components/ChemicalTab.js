@@ -1032,7 +1032,7 @@ export default class ChemicalTab extends React.Component {
         variant="light"
         disabled={!!loadingQuerySafetySheets || checkSavedSds}
       >
-        {loadingQuerySafetySheets === false ? 'Search for SDS'
+        {loadingQuerySafetySheets === false ? 'Find a safety data sheet'
           : (
             <div>
               <i className="fa fa-spinner fa-pulse fa-fw" />
